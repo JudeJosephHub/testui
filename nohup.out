@@ -1,0 +1,36 @@
+
+> pnc-chatbot@0.0.0 start /root/testui
+> ng serve "--host=0.0.0.0"
+
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   3.26 MB |
+polyfills.js          | polyfills     | 296.96 kB |
+styles.css, styles.js | styles        | 173.23 kB |
+main.js               | main          |  67.23 kB |
+runtime.js            | runtime       |   6.52 kB |
+
+| Initial Total |   3.79 MB
+
+Build at: 2022-11-17T10:08:31.772Z - Hash: 3b91a5a999084cdd - Time: 13398ms
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-17T10:08:32.557Z - Hash: 3b91a5a999084cdd - Time: 585ms
+
+✔ Compiled successfully.

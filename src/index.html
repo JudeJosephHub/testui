@@ -29,9 +29,9 @@
   //     // Do something for an error here
   //   });
   amazon_connect('authenticate', function(callback) {
-    window.fetch('https://rjgaxfkhfd.us-east-1.awsapprunner.com/token').then(res => {
+    window.fetch('https://ec2-54-234-164-62.compute-1.amazonaws.com/token').then(res => {
       res.json().then(data => {
-          amazon_connect('snippetId',data.data)
+ //         amazon_connect('snippetId',data.data)
           callback(data.data);
         });
       });
